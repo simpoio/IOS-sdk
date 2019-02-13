@@ -38,7 +38,7 @@ $ brew install carthage
 ```
 2. Create `Cartfile` in the project root dir with the content:  
 ```bash
-github "actionbario/mobile-sdk-iOS"
+github "simpoio/ios-sdk"
 ```
 
 3. Install the dependency:  
