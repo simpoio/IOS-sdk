@@ -91,7 +91,7 @@ $ pod update
 
 So the `Podfile` looks like this:  
 ```bash
-platform :ios, '9.3'
+platform :ios, '10.0'
 
 target '<Project name>' do
   use_frameworks!
