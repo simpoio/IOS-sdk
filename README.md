@@ -1,36 +1,5 @@
 # Simpo SDK for iOS
 
-## Documentation
-
-| Name            | Type      | Args    |Description        |
-| ---             | ---       | ---     | ---               |
-| initializeSimpo | Method    |Ucid, SimpoOptions   |Initialize the SDK and loads Simpo                   |
-|  | `         |         |                   |
-
-
-- #### init(ucid: string, options: object)
-  options
-    - dimensions: type: CGSize(width: number, height: number) - the size of the widget itself  
-    - show: boolean - show or hide the widget 
-    - position: <optional>, type: string, can receive one of the below values: 
-      * "bottom-left"
-      * "bottom-right" (default)
-      * "top-left"
-      * "top-right"
-    - userEmail: <optional> type: string
-    - userName: <optional> type: string
-    - uuid: <optional> type: string
-- #### open()
-  must be called after init, will open Simpo interface
-### Example
-```
-        let ucid = "Enter your UCID here"
-        let options = SimpoOptions(show: true, dimensions: CGSize(width: 55, height: 55), userEmail: "test@simppo.io")
-        Simpo.init(ucid: ucid, options: options)
-```
-
-
-
 ## Installation instructions:
   - [Carthage](#carthage)
   - [CocoaPods](#cocoapods)
