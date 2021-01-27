@@ -1,7 +1,13 @@
 # Simpo SDK for iOS
 
-
 ## Documentation
+
+| Name            | Type      | Args    |Description        |
+| ---             | ---       | ---     | ---               |
+| initializeSimpo | Method    |Ucid, SimpoOptions   |Initialize the SDK and loads Simpo                   |
+|  | `         |         |                   |
+
+
 - #### init(ucid: string, options: object)
   options
     - dimensions: type: CGSize(width: number, height: number) - the size of the widget itself  
